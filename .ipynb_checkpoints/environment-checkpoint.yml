@@ -1,0 +1,17 @@
+name: pyspark_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pyspark
+  - numpy
+  - pandas
+  - jupyter
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - scipy
+  - pip
+  - pip:
+      - findspark
